@@ -5,7 +5,7 @@
 class MsmtpqNotify < Formula
   desc "Notifies desktop user if msmtpq has actually sent or enqueued mail"
   homepage "https://github.com/sercxanto/msmtpq_notify"
-  head "https://github.com/sercxanto/msmtpq_notify"
+  head "https://github.com/sercxanto/msmtpq_notify.git"
   def install
     bin.install "msmtpq_notify.py"
   end
