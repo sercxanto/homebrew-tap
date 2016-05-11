@@ -1,12 +1,7 @@
-# Documentation: https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md
-#                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Formalfridayclub < Formula
   desc "Homebrew test sercxanto"
   homepage "https://github.com/sercxanto/formalfridayclub"
   url "https://github.com/sercxanto/formalfridayclub/archive/1.0.0.tar.gz"
-  version "1.0.0"
   sha256 "9789303cbb3880c2d9860d7f55bfea9b7a75edc610e55c640a0dc6fc2b1a93b1"
 
   def install
