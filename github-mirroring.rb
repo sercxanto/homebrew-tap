@@ -3,6 +3,8 @@ class GithubMirroring < Formula
   homepage "https://github.com/sercxanto/github-mirroring"
   head "https://github.com/sercxanto/github-mirroring.git", :branch => "fixes"
 
+  depends_on :python if MacOS.version <= :snow_leopard
+
   resource "requests" do
     url "https://github.com/kennethreitz/requests/archive/v2.10.0.tar.gz"
     sha256 "53547040c63eb514638203c8211de6eb9b7db370535db4a5dc3801692c2c3f8b"
